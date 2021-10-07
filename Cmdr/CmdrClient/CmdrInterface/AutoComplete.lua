@@ -54,7 +54,7 @@ return function (Cmdr)
 		end
 
 		-- Update container
-		wait()
+		task.wait()
 		Gui.UIListLayout:ApplyLayout()
 		Gui.Size = UDim2.new(0, guiWidth, 0, Gui.UIListLayout.AbsoluteContentSize.Y)
 	end
